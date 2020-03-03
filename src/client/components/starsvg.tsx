@@ -3,7 +3,11 @@ import * as React from 'react';
 class StarSvg extends React.Component<any> {
 
     render(){
+        
         return(
+
+            this.props.gradient_floor!= "00%" ? ( 
+            
             <svg width="16px" height="16px" viewBox="0 0 220 221" version="1.1" >
   
    
@@ -21,6 +25,9 @@ class StarSvg extends React.Component<any> {
                 </g>
             </g>
         </svg>
+            ):(
+                <span className="nonactiveStart"></span>
+            )
         )
     }
 

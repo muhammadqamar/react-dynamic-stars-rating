@@ -29,7 +29,7 @@ class CustomStar extends React.Component<any> {
     
         return (
             <>
-    <div>{this.props.rating}</div>
+
            {
                this.state.ciel_value !=0 ? (
                (()=>{
