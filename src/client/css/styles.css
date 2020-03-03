@@ -1,0 +1,112 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+#root {
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  max-width: 840px;
+}
+
+.wines ul li{
+  list-style: none !important;
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+ }
+
+ .wines img{
+  float:left;
+  width:10%
+ }
+
+ .wines .details{
+  float:left;
+  width:85%;
+  padding-left: 30px;
+ }
+
+ .wines h2{
+ font-size:20px;
+ margin:0
+ }
+
+
+ .nodata{
+  clear: both;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+ }
+ .wines h5{
+  font-size: 12px;
+    margin: 4px 0px 10px 0px;
+    color: #ccc;
+    font-weight: 400;
+  }
+
+  .wines span{
+  
+    padding-left: 5px;
+    }
+
+    .wines .star-ratings{
+      margin-top: 2px;
+    }
+
+    .wines h1{
+      font-size:44px;
+      font-weight:bold;
+     text-align:center
+    }
+
+    .activeStart{
+      background-image: url(../img/star-filled.svg);
+      background-repeat: no-repeat;
+      padding: 10px;
+    }
+
+    .nonactiveStart{
+      background-image: url(../img/star-empty.svg);
+      background-repeat: no-repeat;
+      padding: 10px;
+    }
+    .maxsold{
+    background: #e82323;
+    color: #fff;
+    font-weight: 600;
+    padding: 1px 10px;
+    margin-left: 15px;
+    width: fit-content;
+
+    font-size: 12px;
+    text-transform: uppercase;
+    }
+    select{
+      float: right;
+      margin-right: 10px;
+    }
+    .wines__list{
+      padding: 0;
+      clear: both;
+    }
+    polygon{fill:url(#MyGradient)}
+    @media (max-width:767px){
+      .wines img {
+       
+        width: 20%;
+    }
+    .wines .details {
+     
+      width: 70%;
+      padding-left: 15px;
+  }
+  .wines h2{
+    font-size:16px
+  }
+  .maxsold{
+    display: block;
+    margin-left:0px;
+    margin-top: 4px;
+  }
+    }
